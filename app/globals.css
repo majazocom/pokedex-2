@@ -137,75 +137,75 @@ h1, h2, h3 {
 }
 
 .badge-normal {
-  @apply border-gray-200;
+  @apply bg-gray-200;
 }
 
 .badge-fire {
-  @apply border-amber-400;
+  @apply bg-amber-400;
 }
 
 .badge-water {
-  @apply border-blue-400;
+  @apply bg-blue-400;
 }
 
 .badge-electric {
-  @apply border-yellow-200;
+  @apply bg-yellow-500;
 }
 
 .badge-grass {
-  @apply border-green-400;
+  @apply bg-green-400;
 }
 
 .badge-ice {
-  @apply border-cyan-100;
+  @apply bg-cyan-100;
 }
 
 .badge-fighting {
-  @apply border-red-500;
+  @apply bg-red-500;
 }
 
 .badge-poison {
-  @apply border-purple-500;
+  @apply bg-purple-500;
 }
 
 .badge-ground {
-  @apply border-yellow-500;
+  @apply bg-yellow-500;
 }
 
 .badge-flying {
-  @apply border-indigo-200;
+  @apply bg-indigo-200;
 }
 
 .badge-psychic {
-  @apply border-pink-300;
+  @apply bg-pink-300;
 }
 
 .badge-bug {
-  @apply border-lime-400;
+  @apply bg-lime-400;
 }
 
 .badge-rock {
-  @apply border-stone-400;
+  @apply bg-stone-400;
 }
 
 .badge-ghost {
-  @apply border-indigo-600;
+  @apply bg-indigo-600;
 }
 
 .badge-dragon {
-  @apply border-indigo-400;
+  @apply bg-indigo-400;
 }
 
 .badge-dark {
-  @apply border-gray-700;
+  @apply bg-gray-700;
 }
 
 .badge-steel {
-  @apply border-slate-200;
+  @apply bg-slate-200;
 }
 
 .badge-fairy {
-  @apply border-pink-100;
+  @apply bg-pink-100;
 }
 
 /* breakout */
