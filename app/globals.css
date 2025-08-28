@@ -11,6 +11,7 @@
   --font-jaldi: var(--font-jaldi);
   --font-jersey: var(--font-jersey);
 }
+
 /* 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -51,6 +52,83 @@ h1, h2, h3 {
 .text-gradient {
   @apply text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-blue-800;
 }
+
+.badge {
+  @apply inline-block px-2 py-0 rounded-full text-sm font-semibold text-white;
+}
+
+.badge-normal {
+  @apply bg-gray-400;
+}
+
+.badge-fire {
+  @apply bg-amber-600;
+}
+
+.badge-water {
+  @apply bg-blue-600;
+}
+
+.badge-electric {
+  @apply bg-yellow-400;
+}
+
+.badge-grass {
+  @apply bg-green-600;
+}
+
+.badge-ice {
+  @apply bg-cyan-300;
+}
+
+.badge-fighting {
+  @apply bg-red-700;
+}
+
+.badge-poison {
+  @apply bg-purple-700;
+}
+
+.badge-ground {
+  @apply bg-yellow-700;
+}
+
+.badge-flying {
+  @apply bg-indigo-400;
+}
+
+.badge-psychic {
+  @apply bg-pink-500;
+}
+
+.badge-bug {
+  @apply bg-lime-600;
+}
+
+.badge-rock {
+  @apply bg-stone-600;
+}
+
+.badge-ghost {
+  @apply bg-indigo-800;
+}
+
+.badge-dragon {
+  @apply bg-indigo-600;
+}
+
+.badge-dark {
+  @apply bg-gray-800;
+}
+
+.badge-steel {
+  @apply bg-slate-400;
+}
+
+.badge-fairy {
+  @apply bg-pink-300;
+}
+
 
 /* breakout */
 /* see https://www.youtube.com/watch?v=c13gpBrnGEw */
