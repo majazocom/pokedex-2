@@ -64,78 +64,149 @@ h1, h2, h3 {
   @apply inline-block px-2 py-0 rounded-full text-sm font-semibold text-white;
 }
 
+.cborder-normal {
+  @apply border-gray-200;
+}
+
+.cborder-fire {
+  @apply border-amber-400;
+}
+
+.cborder-water {
+  @apply border-blue-400;
+}
+
+.cborder-electric {
+  @apply border-yellow-200;
+}
+
+.cborder-grass {
+  @apply border-green-400;
+}
+
+.cborder-ice {
+  @apply border-cyan-100;
+}
+
+.cborder-fighting {
+  @apply border-red-500;
+}
+
+.cborder-poison {
+  @apply border-purple-500;
+}
+
+.cborder-ground {
+  @apply border-yellow-500;
+}
+
+.cborder-flying {
+  @apply border-indigo-200;
+}
+
+.cborder-psychic {
+  @apply border-pink-300;
+}
+
+.cborder-bug {
+  @apply border-lime-400;
+}
+
+.cborder-rock {
+  @apply border-stone-400;
+}
+
+.cborder-ghost {
+  @apply border-indigo-600;
+}
+
+.cborder-dragon {
+  @apply border-indigo-400;
+}
+
+.cborder-dark {
+  @apply border-gray-600;
+}
+
+.cborder-steel {
+  @apply border-slate-200;
+}
+
+.cborder-fairy {
+  @apply border-pink-100;
+}
+
 .badge-normal {
-  @apply bg-gray-400;
+  @apply border-gray-200;
 }
 
 .badge-fire {
-  @apply bg-amber-600;
+  @apply border-amber-400;
 }
 
 .badge-water {
-  @apply bg-blue-600;
+  @apply border-blue-400;
 }
 
 .badge-electric {
-  @apply bg-yellow-400;
+  @apply border-yellow-200;
 }
 
 .badge-grass {
-  @apply bg-green-600;
+  @apply border-green-400;
 }
 
 .badge-ice {
-  @apply bg-cyan-300;
+  @apply border-cyan-100;
 }
 
 .badge-fighting {
-  @apply bg-red-700;
+  @apply border-red-500;
 }
 
 .badge-poison {
-  @apply bg-purple-700;
+  @apply border-purple-500;
 }
 
 .badge-ground {
-  @apply bg-yellow-700;
+  @apply border-yellow-500;
 }
 
 .badge-flying {
-  @apply bg-indigo-400;
+  @apply border-indigo-200;
 }
 
 .badge-psychic {
-  @apply bg-pink-500;
+  @apply border-pink-300;
 }
 
 .badge-bug {
-  @apply bg-lime-600;
+  @apply border-lime-400;
 }
 
 .badge-rock {
-  @apply bg-stone-600;
+  @apply border-stone-400;
 }
 
 .badge-ghost {
-  @apply bg-indigo-800;
+  @apply border-indigo-600;
 }
 
 .badge-dragon {
-  @apply bg-indigo-600;
+  @apply border-indigo-400;
 }
 
 .badge-dark {
-  @apply bg-gray-800;
+  @apply border-gray-700;
 }
 
 .badge-steel {
-  @apply bg-slate-400;
+  @apply border-slate-200;
 }
 
 .badge-fairy {
-  @apply bg-pink-300;
+  @apply border-pink-100;
 }
-
 
 /* breakout */
 /* see https://www.youtube.com/watch?v=c13gpBrnGEw */

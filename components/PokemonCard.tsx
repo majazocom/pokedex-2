@@ -33,7 +33,7 @@ interface PokemonCardProps {
 export default function PokemonCard({ pokemon }: PokemonCardProps) {
     return (
         <div className="bg-white p-4 rounded-lg shadow-md w-50 flex flex-col justify-center">
-            <div className="relative w-40 h-40 rounded-full overflow-hidden mx-auto border-4 border-amber-500">
+            <div className={`relative w-40 h-40 rounded-full overflow-hidden mx-auto border-4 cborder-${pokemon.types[0].type.name}`}>
                 <img
                     className="w-full h-full object-cover scale-110"
                     src={pokemon.sprites.front_default}

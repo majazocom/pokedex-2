@@ -5,7 +5,6 @@ interface TypeBadgeProps {
 }
 
 export default function TypeBadge({ name }: TypeBadgeProps) {
-    console.log(name);
     
     return (
         <span className={`badge badge-${name}`}>
