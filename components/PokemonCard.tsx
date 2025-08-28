@@ -32,7 +32,7 @@ interface PokemonCardProps {
 
 export default function PokemonCard({ pokemon }: PokemonCardProps) {
     return (
-        <div className="bg-white p-4 rounded-lg shadow-md">
+        <div className="bg-white p-4 rounded-lg shadow-md w-50 flex flex-col justify-center">
             <img src={pokemon.sprites.front_default} alt={pokemon.name} />
             <h2 className="text-2xl font-bold text-center pb-1">{pokemon.name}</h2>
             <div className="flex flex-row gap-1 justify-center">
@@ -40,7 +40,7 @@ export default function PokemonCard({ pokemon }: PokemonCardProps) {
             </div>
             <div className="flex flex-col gap-2 mt-4">
                 {pokemon.stats.slice(0, 3).map((stat) => (
-                    <div key={stat.stat.name} className="flex justify-between items-center">
+                    <div key={stat.stat.name} className="flex justify-between items-center w-full">
                         <p>{stat.stat.name}</p>
                         <p>{stat.base_stat}</p>
                     </div>
